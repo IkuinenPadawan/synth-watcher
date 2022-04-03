@@ -15,5 +15,6 @@ First working test version released. Email message formatting needs work.
 Python script running in the cloud scrapes the muusikoiden.net marketplace (in the confines of robots.txt) for certain classifieds depending on given criteria and sends the summary to email every morning.
 
 ## Screenshots
-Example of an automated email
+Example of an automated email:
+
 ![Alt text](img/examplemail.JPG?raw=true "Example email")
