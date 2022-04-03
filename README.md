@@ -13,3 +13,6 @@ First working test version released.
 
 ## Features
 Python script running in the cloud scrapes the muusikoiden.net marketplace (in the confines of robots.txt) for certain classifieds depending on given criteria and sends the summary to email every morning.
+
+## Screenshots
+![Alt text](/img/examplemail.jpg?raw=true "Example email")
