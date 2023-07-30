@@ -1,6 +1,6 @@
 # Synth Watcher
 
-A little dockerized web scraping script platform that sends every morning an email containing all the interesting synth classifieds depending on search words.
+A little dockerised web scraping script platform that sends every morning an email containing all the interesting synth classifieds depending on search words.
 
 # Motivation
 
@@ -8,7 +8,11 @@ I got into synthesizers in late 2020 and if there is anything to know about synt
 
 ## Build status
 
+April 2022
 First working test version released. Email message formatting needs work.
+
+July 2023
+Heroku free tier is no more so app was dockerised for ease of use in private or public cloud.
 
 ## Tech/framework used
 
@@ -37,13 +41,15 @@ Set up container:
 
 - Change settings in config.ini
 
-```
-[Settings]
-keywords = separated by comma
-from_email = gmail address sent from
-from_email_pw = app password for the above gmail
-to_email = email address sent to
-```
+  ```
+  [Settings]
+  keywords = separated by comma
+  from_email = gmail address sent from
+  from_email_pw = app password for the above gmail
+  to_email = email address sent to
+  ```
+
+- Modify crontab if interval to run the script needs to be changed
 
 - Build container:
   ```
