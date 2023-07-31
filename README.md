@@ -51,6 +51,8 @@ Set up container:
 
 - Modify crontab if interval to run the script needs to be changed
 
+- cd to src/
+
 - Build container:
   ```
   $ docker build -t synth-watcher:latest .
